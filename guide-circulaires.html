@@ -10,8 +10,10 @@
 @media (prefers-color-scheme: dark) { :root:not(.print) { --text: #f3f4f6; --muted: #cbd5e1; --border: #475569; --bg: #111827; --panel: #1f2937; } :root:not(.print) h1 { color: var(--text); } }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
+html, body { max-width: 100%; overflow-x: hidden; }
 body { margin: 0; background: var(--bg); color: var(--text); font-family: "Segoe UI Variable Text", "Segoe UI", Tahoma, Arial, sans-serif; line-height: 1.55; font-size: 16px; }
-main { max-width: 960px; margin: 0 auto; padding: 24px 16px 48px; }
+main, .step, figure { max-width: 100%; width: 100%; overflow: hidden; }
+img { width: 100% !important; max-width: 100% !important; height: auto !important; display: block; border: 1px solid var(--border); border-radius: 6px; }
 h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; color: var(--accent); }
 h2 { font-size: 1.4rem; margin: 32px 0 12px; }
 h3 { font-size: 1.1rem; margin: 0 0 10px; display: flex; gap: .5em; flex-wrap: wrap; align-items: baseline; }
@@ -66,7 +68,13 @@ a { color: var(--accent); }
 <header class="cover">
 <h1>modeMon Planificateur Anti-Inflation d&#39;emploi</h1>
 <dl class="details">
-<div><dt>Objectif</dt><dd>Arr&#234;tez de payer trop cher votre &#233;picerie au Qu&#233;bec ! &#128722;&#128184;J&#39;ai cr&#233;&#233; un outil 100 % gratuit pour comparer toutes les circulaires autour de chez vous en quelques secondes.✅ D&#233;tection automatique des &#233;piceries pr&#232;s de votre code postal✅ Filtre sp&#233;cial &#171; Prix &#233;gal&#233; &#187; pour Maxi et Walmart✅ Simulation de votre facture et calcul exact de vos &#233;conomies✅ Codes-barres g&#233;n&#233;r&#233;s pour aller plus vite &#224; la caisseTestez-le gratuitement d&#232;s maintenant &#128073; cliquer ici</dd></div>
+<div><dt>Objectif</dt><dd>Arr&#234;tez de payer trop cher votre &#233;picerie au Qu&#233;bec ! &#128722;&#128184;
+J&#39;ai cr&#233;&#233; un outil 100 % gratuit pour comparer toutes les circulaires autour de chez vous en quelques secondes.
+✅ D&#233;tection automatique des &#233;piceries pr&#232;s de votre code postal
+✅ Filtre sp&#233;cial &#171; Prix &#233;gal&#233; &#187; pour Maxi et Walmart
+✅ Simulation de votre facture et calcul exact de vos &#233;conomies
+✅ Codes-barres g&#233;n&#233;r&#233;s pour aller plus vite &#224; la caisse
+Testez-le gratuitement d&#232;s maintenant &#128073; cliquer ici</dd></div>
 <div><dt>Auteur</dt><dd>Un b&#233;n&#233;vole du Qu&#233;bec et c&#39;est gratuit</dd></div>
 <div><dt>Version</dt><dd>1</dd></div>
 <div><dt>Pr&#233;requis</dt><dd>Suivez le guide</dd></div>
