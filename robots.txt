@@ -8,4 +8,5 @@ Disallow: /manifest.json
 Disallow: /google*.html
 
 # Indiquer l'emplacement exact du plan du site
-Sitemap: https://epicerieqc.github.io
+Sitemap: https://epicerieqc.github.io/sitemap.xml
+
