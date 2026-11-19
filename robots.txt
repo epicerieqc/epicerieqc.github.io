@@ -1,12 +1,3 @@
 User-agent: *
 Allow: /
-Allow: /images/
-
-# Empêcher Google de perdre du temps sur les fichiers techniques
-Disallow: /sw.js
-Disallow: /manifest.json
-Disallow: /google*.html
-
-# Indiquer l'emplacement exact du plan du site
 Sitemap: https://epicerieqc.github.io/sitemap.xml
-
